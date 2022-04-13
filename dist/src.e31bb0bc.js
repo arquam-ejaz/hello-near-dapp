@@ -17326,7 +17326,7 @@ __exportStar(require("./browser-connect"), exports);
 require("error-polyfill");
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js","./browser-connect":"../node_modules/near-api-js/lib/browser-connect.js","error-polyfill":"../node_modules/error-polyfill/index.js"}],"config.js":[function(require,module,exports) {
-var CONTRACT_NAME = "dev-1649850171243-66051421049040" || 'hello-name';
+var CONTRACT_NAME = "dev-1649850171243-66051421049040" || 'aejaz.testnet';
 
 function getConfig(env) {
   switch (env) {
@@ -17636,7 +17636,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39957" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34111" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
