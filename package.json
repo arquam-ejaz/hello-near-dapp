@@ -24,8 +24,7 @@
     "near-cli": "~2.1.1",
     "nodemon": "~2.0.3",
     "parcel-bundler": "~1.12.4",
-    "shelljs": "~0.8.4",
-    "rustup":"*"
+    "shelljs": "~0.8.4"
   },
   "dependencies": {
     "near-api-js": "~0.43.1",
